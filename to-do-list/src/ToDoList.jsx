@@ -39,7 +39,8 @@ function ToDoList() {
     }
 
     return(
-        <>
+        <div className="container">
+            <h1>TO DO LIST</h1>
             <div className="addBar">
                 <input
                     type='text'
@@ -60,7 +61,7 @@ function ToDoList() {
                     </li>
                 ))}
             </ol>
-        </>
+        </div>
     )
 }
 
