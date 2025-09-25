@@ -18,7 +18,6 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
 }
 
 .container h1{
@@ -55,6 +54,25 @@ body {
 }
 
 .addBar button:hover {
+    background-color: darkblue;
+    color: gainsboro;
+}
+
+.container li {
+    margin-top: 20px;
+}
+
+.container ol li button {
+    margin-left: 20px;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    background: gainsboro;
+    color: darkblue;
+    transition: 0.5s ease;
+}
+
+.container ol li button:hover {
     background-color: darkblue;
     color: gainsboro;
 }
