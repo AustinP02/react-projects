@@ -7,7 +7,7 @@ function App() {
   const [location, setLocation] = useState('')
   
   // insert api key here
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=19edbcc456d9e0fe0d7482643ab8848d
+  const url = '';
 `
 
 
